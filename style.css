@@ -33,6 +33,18 @@ a {
   font-family: 'Open Sans', sans-serif;
 }
 
+#black-to-red-hover:hover {
+  color: red;
+}
+
+#yellow-to-black-hover:hover {
+  color: rgba(150,150,150,150);
+}
+
+#red-to-yellow-hover:hover {
+  color: yellow;
+}
+
 .image-round {
   border-radius: 50%
 }
@@ -84,7 +96,7 @@ text-align: center;
 
 .link-align ul > li {
   display: inline-block;
-  margin: 0 auto;
+  margin-right: -6px;
   padding: 0px;
 }
 
