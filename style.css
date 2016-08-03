@@ -115,7 +115,6 @@ text-align: center;
   width: 70px;
 }
 
-
 .header > p {
   text-align: justify;
 }
@@ -136,15 +135,24 @@ text-align: center;
   background-color: red;
 }
 
-.table-text-align > p {
+.table-text-size p {
   text-align: justify;
   font-size: 14px;
   margin: 0px;
 }
 
-.table-text-align > h3 {
+.table-text-size h3 {
   margin: 5px;
   padding-bottom: 2px;
+}
+
+.beer-description {
+  padding-top: 0px;
+}
+
+.beer-description h3 {
+  padding-top: 0px;
+  border-spacing: 0px;
 }
 
 .image-no-padding {
