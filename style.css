@@ -1,0 +1,103 @@
+body {
+  background: rgba(240,240,240,240);
+  padding: 30px;
+  font-weight: 300;
+  font-size: 15px
+  color: #7d7d7d;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0);
+  border: 1px solid rgba(0,0,0,0);
+  line-height: 1.6em;
+  font-family: 'Chelsea Market', cursive;
+}
+
+h1 {
+  color: #DD5555;
+  font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Bungee Inline', cursive;
+}
+
+a:hover {
+  color: #DD5555;
+}
+
+a {
+  color: #7d7d7d;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.image-round {
+  border-radius: 50%
+}
+
+.text-center {
+  text-align:  center;
+}
+
+.card, .header {
+  background: white;
+  padding: 30px;
+  font-weight: 300;
+  font-size: 15px
+  color: #7d7d7d;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0);
+  border: 1px solid rgba(0,0,0,0);
+  line-height: 1.6em;
+  margin: 10px auto;
+  width: 700px;
+}
+
+.margin-to-fix {
+  margin-bottom: 30px
+}
+
+.btn-round-blue {
+  background-color: blue;
+  color: white;
+  padding: 15px 30px;
+  margin: 15px auto;
+  border-radius: 4px;
+}
+
+.link-align ul > li {
+  display: inline;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.link-align ul {
+  text-align: center;
+  padding: 0px;
+}
+
+.link-align a {
+  padding: 15px;
+}
+
+.header > p {
+  text-align: justify;
+}
+
+.link-black {
+  color: white;
+  background-color: black;
+}
+
+.link-yellow {
+  color: black;
+/*  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  background-color: yellow;
+}
+
+.link-red {
+  color: white;
+  background-color: red;
+}
