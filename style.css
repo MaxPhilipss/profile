@@ -55,6 +55,21 @@ a {
   width: 700px;
 }
 
+.footer > h2, .footer > p {
+text-align: center;
+}
+
+.footer ul > li {
+  display: inline;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.footer ul {
+  text-align: center;
+  padding: 0
+}
+
 .margin-to-fix {
   margin-bottom: 30px
 }
@@ -68,7 +83,7 @@ a {
 }
 
 .link-align ul > li {
-  display: inline;
+  display: inline-block;
   margin: 0 auto;
   padding: 0px;
 }
@@ -79,8 +94,15 @@ a {
 }
 
 .link-align a {
+  display: block;
   padding: 15px;
+  width: 180px;
 }
+
+.flag-width  {
+  width: 70px;
+}
+
 
 .header > p {
   text-align: justify;
