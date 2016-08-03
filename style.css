@@ -147,6 +147,7 @@ text-align: center;
 }
 
 .beer-description {
+  display: table-cell;
   padding-top: 0px;
 }
 
@@ -159,3 +160,7 @@ text-align: center;
   padding: 0px;
 }
 
+.text-padding {
+  padding: 0px 20px;
+
+}
